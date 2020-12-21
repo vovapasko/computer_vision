@@ -5,7 +5,7 @@ import argparse
 import cv2
 import imutils
 
-image = cv2.imread("photo21.jpg")
+image = cv2.imread("photo13.jpg")
 ratio = image.shape[0] / 500.0
 orig = image.copy()
 image = imutils.resize(image, height=500)
