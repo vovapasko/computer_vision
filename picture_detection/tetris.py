@@ -3,13 +3,9 @@ import argparse
 import imutils
 import cv2
 
+from utils import show_image
+
 filename = 'tetris_blocks.png'
-
-
-def show_image(title, image):
-    cv2.imshow(title, image)
-    cv2.waitKey(0)
-
 
 image = cv2.imread(filename)
 show_image("Image", image)
